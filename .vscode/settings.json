@@ -1,0 +1,5 @@
+{
+    "eslint.runtime": "/workspaces/express-rest-api/.vscode/node_proxy.sh",
+    "eslint.enable": true,
+    "eslint.run": "onType"
+}

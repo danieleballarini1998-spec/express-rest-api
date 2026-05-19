@@ -21,3 +21,7 @@ app.listen(PORT, () => {
 });
 
 module.exports = app;
+
+app.get('/status', (req, res) => {
+    res.json({ uptime: process.uptime(), timestamp: Date.now() });
+});
